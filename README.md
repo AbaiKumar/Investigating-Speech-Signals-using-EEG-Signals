@@ -1,6 +1,8 @@
 
 # Investigating Speech Signals Using BCI
 
+https://github.com/AbaiKumar/Investigating-Speech-Signals-using-EEG-Signals/blob/33aebaee4dd22a55c4c77a008971cba1bc2c42e5/Output%20Screenshots/ML.mp4
+
 ## Abstract:
 
 Brain-Computer Interfaces (BCIs) offer a promising avenue for direct communication by bridging the gap between the brain and external devices. This project investigates the role of the TP9 region in speech generation using Electroencephalography (EEG) signals. The TP9 region remains relatively unexplored in speech production, but we hypothesize it plays a crucial role. By utilizing EEG, a non-invasive neuroimaging technique, this study aims to pinpoint the TP9 region's contribution to speech signal generation. Participants engaged in speech imagination tasks while their neural activity was recorded. The data underwent rigorous analysis using signal processing algorithms and machine learning to isolate the neural signatures associated with the TP9 region during speech production. This research has potential implications for advancing our understanding of neuroscience, as well as for developing clinical applications and interventions for speech disorders.
@@ -20,14 +22,13 @@ The data collection phase begins with participant selection based on predefined 
 
 A t-test is a statistical method employed to assess whether there is a significant difference between the means of two groups. It's particularly useful when comparing the means of two sets of data, such as brain activity patterns recorded during different conditions.
 
-![TTest Output](Output/ttest.png)
+![TTest Output](https://github.com/AbaiKumar/Investigating-Speech-Signals-using-EEG-Signals/blob/main/Output%20Screenshots/ttest.png?raw=true)
 
 ## Model Selection
 
 Used Pycaret python library to select the most suitable model for our EEG Datasets. Both Random Forest and Extra Tree Classifier were rigorously evaluated. Through their application, valuable insights into the neural mechanisms underlying speech production were gleaned. While both models were utilized without a notion of superiority, Random Forest and Extra Tree Classifier each offered unique perspectives on the data. Additionally, recommendations were made for refining the models and improving data collection practices to bolster future studies.
 
-![Pycaret Output](Output/pycaret.png)
+![Pycaret Output](https://github.com/AbaiKumar/Investigating-Speech-Signals-using-EEG-Signals/blob/main/Output%20Screenshots/pycaret.png?raw=true)
 
 ## Testing with Unseen Data
-![Pycaret Output](Output/test_sample.png)
-
+![Pycaret Output](https://github.com/AbaiKumar/Investigating-Speech-Signals-using-EEG-Signals/blob/main/Output%20Screenshots/test_sample.png?raw=true)
